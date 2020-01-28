@@ -42,6 +42,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=true
 
+# Charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # AOSP userdebug/eng CLI tools
 PRODUCT_PACKAGES += \
     arping \
